@@ -1,6 +1,6 @@
-import { faker } from "@faker-js/faker"; 
+import { faker } from "@faker-js/faker";
 
-export const createFakeContanct = () => ({
+export const createFakeContact = () => ({
     id: faker.string.uuid(),
     name: faker.person.fullName(),
     phone: faker.phone.number(),
